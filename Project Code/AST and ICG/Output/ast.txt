@@ -1,0 +1,14 @@
+	                                                      main 
+
+	                                                stmt      
+
+	                                          stmt            if     
+
+	                                    =            Dc b           <            =    
+
+	                              a            3                   a            2           a            *   
+
+	                                                                         2            3  
+
+	                                                               
+

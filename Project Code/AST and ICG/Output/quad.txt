@@ -1,0 +1,40 @@
+	Op		Arg1		Arg2		Res
+------------------------------------------------------------------------
+	*		8		3		t0
+	=		t0		  		a
+	*		8		3		t1
+	=		t1		  		b
+	+		3		2		t2
+	/		t2		1		t3
+	=		t3		  		b
+	+		a		1		t4
+	=		t4		  		c
+	+		b		1		t5
+	=		t5		  		a
+	Label		  		  		L0
+	<		a		60		t6
+	ifFalse		t6		  		L1
+	+		a		2		t7
+	=		t7		  		b
+	+		a		1 		t8
+	=		t8		  		a
+	goto		  		  		L0
+	Label		  		  		L1
+	+		b		5		t9
+	=		t9		  		b
+	Label		  		  		L2
+	+		a		1 		t10
+	=		t10		  		a
+	ifFalse		t10		  		L3
+	+		2		3		t11
+	=		t11		  		b
+	goto		  		  		L2
+	Label		  		  		L3
+	*		5		8		t12
+	=		t12		  		z
+	Label		  		  		L4
+	<		a		2		t13
+	ifFalse		t13		  		L5
+	+		5		9		t14
+	=		t14		  		a
+	Label		  		  		L5

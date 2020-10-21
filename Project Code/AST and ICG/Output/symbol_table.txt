@@ -1,0 +1,7 @@
+   Symbol		Name	   Type	      Scope	   Line Number	       Value 
+-------------------------------------------------------------------------------------------------
+ identifier	              a	   int		1		6		6
+ identifier	              b	   int		1		7		-
+
+
+
